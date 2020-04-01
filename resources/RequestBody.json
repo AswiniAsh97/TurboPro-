@@ -1,0 +1,235 @@
+{
+	"Environments": {
+		"Bartos": {
+		
+			"loginUrl":"https://bartos.aandespecialties.com/turbotracker/turbo/usercontroller",
+			"AccountsPayableUrl": "https://bartos.aandespecialties.com/turbotracker/turbo/veInvoiceBillController/getAccountsPayableList?searchData=&fromDate=&toDate=",
+			"Accounts Receivable": {
+				"scheme": "https",
+				"host": "bartos.aandespecialties.com",
+				"path": "/turbotracker/turbo/projectscontroller/getCustomerAccountRecieveDetails"
+			},
+			"GLAccounts": {
+				"URL": "https://bartos.aandespecialties.com/turbotracker/turbo/drillDown/accountDetails",
+				"coAccountListIds": [
+					{
+						"number": "1150-00-000",
+						"description": "ACCOUNTS RECEIVABLE - TRADE",
+						"coAccountId": "130"
+					},
+					{
+						"number": "2000-00-000",
+						"description": "ACCOUNTS PAYABLE",
+						"coAccountId": "160"
+					},
+					{
+						"number": "1350-00-000",
+						"description": "INVENTORY",
+						"coAccountId": "141"
+					}
+				]
+			},
+			"RecentPeriodURL": "https://bartos.aandespecialties.com/turbotracker/turbo/getMostRecentPeriod",
+			"InventoryURL":"https://bartos.aandespecialties.com/turbotracker/turbo/inventoryList?Inactive=0&Warehouse=-1&_search=false&rows=1500&page=1&sidx=itemCode&sord=asc"
+		},
+		
+		"HDGrant": {
+			
+			"loginUrl":"https://hdgrant.aandespecialties.com/turbotracker/turbo/usercontroller",
+			"AccountsPayableUrl": "https://hdgrant.aandespecialties.com/turbotracker/turbo/veInvoiceBillController/getAccountsPayableList?searchData=&fromDate=&toDate=",
+			"Accounts Receivable": {
+				"scheme": "https",
+				"host": "hdgrant.aandespecialties.com",
+				"path": "/turbotracker/turbo/projectscontroller/getCustomerAccountRecieveDetails"
+			},
+			"GLAccounts": {
+				"URL": "https://hdgrant.aandespecialties.com/turbotracker/turbo/drillDown/accountDetails",
+				"coAccountListIds": [
+					{
+						"number": "11210",
+						"description": "Accounts Receivable - Trade",
+						"coAccountId": "178"
+					},
+					{
+						"number": "21120",
+						"description": "Accounts Payable",
+						"coAccountId": "200"
+					},
+					{
+						"number": "11300-01",
+						"description": "Inventory",
+						"coAccountId": "467"
+					}
+				]
+			},
+			"RecentPeriodURL": "https://hdgrant.aandespecialties.com/turbotracker/turbo/getMostRecentPeriod",
+			"InventoryURL":"https://hdgrant.aandespecialties.com/turbotracker/turbo/inventoryList?Inactive=0&Warehouse=-1&_search=false&rows=1500&page=1&sidx=itemCode&sord=asc"
+			
+		},
+		
+		"MWG": {
+			
+			"loginUrl":"https://millswilsongeorge.aandespecialties.com/turbotracker/turbo/usercontroller",
+			"AccountsPayableUrl": "https://millswilsongeorge.aandespecialties.com/turbotracker/turbo/veInvoiceBillController/getAccountsPayableList?searchData=&fromDate=&toDate=",
+			"Accounts Receivable": {
+				"scheme": "https",
+				"host": "millswilsongeorge.aandespecialties.com",
+				"path": "/turbotracker/turbo/projectscontroller/getCustomerAccountRecieveDetails"
+			},
+			"GLAccounts": {
+				"URL": "https://millswilsongeorge.aandespecialties.com/turbotracker/turbo/drillDown/accountDetails",
+				"coAccountListIds": [
+					{
+						"number": "1130-00",
+						"description": "Accounts Receivable - Trade",
+						"coAccountId": "368"
+					},
+					{
+						"number": "2110-00",
+						"description": "Accounts Payable - Trade",
+						"coAccountId": "404"
+					},
+					{
+						"number": "1140-00",
+						"description": "Inventory",
+						"coAccountId": "370"
+					}
+				]
+			},
+			"RecentPeriodURL": "https://millswilsongeorge.aandespecialties.com/turbotracker/turbo/getMostRecentPeriod",
+			"InventoryURL":"https://millswilsongeorge.aandespecialties.com/turbotracker/turbo/inventoryList?Inactive=0&Warehouse=-1&_search=false&rows=1500&page=1&sidx=itemCode&sord=asc"
+		},
+		
+		"MPNServices": {
+	
+			"loginUrl":"https://mpnservices.aandespecialties.com/turbotracker/turbo/usercontroller",
+			"AccountsPayableUrl": "https://mpnservices.aandespecialties.com/turbotracker/turbo/veInvoiceBillController/getAccountsPayableList?searchData=&fromDate=&toDate=",
+			"Accounts Receivable": {
+				"scheme": "https",
+				"host": "mpnservices.aandespecialties.com",
+				"path": "/turbotracker/turbo/projectscontroller/getCustomerAccountRecieveDetails"
+			},
+			"GLAccounts": {
+				"URL": "https://mpnservices.aandespecialties.com/turbotracker/turbo/drillDown/accountDetails",
+				"coAccountListIds": [
+					{
+						"number": "1210-00",
+						"description": "Accounts Receivable",
+						"coAccountId": "817"
+					},
+					{
+						"number": "2010-00",
+						"description": "Accounts Payable",
+						"coAccountId": "843"
+					},
+					{
+						"number": "1350-00",
+						"description": "Inventory",
+						"coAccountId": "1152"
+					}
+				]
+			},
+			"RecentPeriodURL": "https://mpnservices.aandespecialties.com/turbotracker/turbo/getMostRecentPeriod",
+			"InventoryURL":"https://mpnservices.aandespecialties.com/turbotracker/turbo/inventoryList?Inactive=0&Warehouse=-1&_search=false&rows=1500&page=1&sidx=itemCode&sord=asc"
+		},
+		
+		"MPNCompany": {
+	
+			"loginUrl":"https://mpncompany.aandespecialties.com/turbotracker/turbo/usercontroller",
+			"AccountsPayableUrl": "https://mpncompany.aandespecialties.com/turbotracker/turbo/veInvoiceBillController/getAccountsPayableList?searchData=&fromDate=&toDate=",
+			"Accounts Receivable": {
+				"scheme": "https",
+				"host": "mpncompany.aandespecialties.com",
+				"path": "/turbotracker/turbo/projectscontroller/getCustomerAccountRecieveDetails"
+			},
+			"GLAccounts": {
+				"URL": "https://mpncompany.aandespecialties.com/turbotracker/turbo/drillDown/accountDetails",
+				"coAccountListIds": [
+					{
+						"number": "2010-00",
+						"description": "Accounts Payable",
+						"coAccountId": "843"
+					},
+					{
+						"number": "1210-00",
+						"description": "Accounts Receivable",
+						"coAccountId": "817"
+					},
+					{
+						"number": "1350-01",
+						"description": "Inventory APD",
+						"coAccountId": "828"
+					}
+				]
+			},
+			"RecentPeriodURL": "https://mpncompany.aandespecialties.com/turbotracker/turbo/getMostRecentPeriod",
+			"InventoryURL":"https://mpncompany.aandespecialties.com/turbotracker/turbo/inventoryList?Inactive=0&Warehouse=-1&_search=false&rows=1500&page=1&sidx=itemCode&sord=asc"
+		},
+		
+		"Pennergy": {
+			
+			"loginUrl":"https://pennergy.aandespecialties.com/turbotracker/turbo/usercontroller",
+			"AccountsPayableUrl": "https://pennergy.aandespecialties.com/turbotracker/turbo/veInvoiceBillController/getAccountsPayableList?searchData=&fromDate=&toDate=",
+			"Accounts Receivable": {
+				"scheme": "https",
+				"host": "pennergy.aandespecialties.com",
+				"path": "/turbotracker/turbo/projectscontroller/getCustomerAccountRecieveDetails"
+			},
+			"GLAccounts": {
+				"URL": "https://pennergy.aandespecialties.com/turbotracker/turbo/drillDown/accountDetails",
+				"coAccountListIds": [
+					{
+						"number": "20000-00",
+						"description": "Accounts payable ",
+						"coAccountId": "90280"
+					},
+					{
+						"number": "00020-00",
+						"description": "Accounts receiveable",
+						"coAccountId": "90277"
+					},
+					{
+						"number": "00040-00",
+						"description": "Inventory",
+						"coAccountId": "90279"
+					}
+				]
+			},
+			"RecentPeriodURL": "https://pennergy.aandespecialties.com/turbotracker/turbo/getMostRecentPeriod",
+			"InventoryURL":"https://pennergy.aandespecialties.com/turbotracker/turbo/inventoryList?Inactive=0&Warehouse=-1&_search=false&rows=1500&page=1&sidx=itemCode&sord=asc"
+		},
+		
+		"EMS": {
+		
+			"loginUrl":"http://environmechsales.turbo-pro.net/turbotracker/turbo/usercontroller",
+			"AccountsPayableUrl": "http://environmechsales.turbo-pro.net/turbotracker/turbo/veInvoiceBillController/getAccountsPayableList?searchData=&fromDate=&toDate=",
+			"Accounts Receivable": {
+				"scheme": "http",
+				"host": "environmechsales.turbo-pro.net",
+				"path": "/turbotracker/turbo/projectscontroller/getCustomerAccountRecieveDetails"
+			},
+			"GLAccounts": {
+				"URL": "http://environmechsales.turbo-pro.net/turbotracker/turbo/drillDown/accountDetails",
+				"coAccountListIds": [
+					{
+						"number": "2010-00",
+						"description": "Accounts payable ",
+						"coAccountId": "32"
+					},
+					{
+						"number": "1200-00",
+						"description": "Accounts Receivable",
+						"coAccountId": "10"
+					}, 
+					{
+						"number": "1322-00",
+						"description": "Inventory",
+						"coAccountId": "169"
+					}
+				]
+			},
+			"RecentPeriodURL": "http://environmechsales.turbo-pro.net/turbotracker/turbo/getMostRecentPeriod",
+			"InventoryURL":"http://environmechsales.turbo-pro.net/turbotracker/turbo/inventoryList?Inactive=0&Warehouse=-1&_search=false&rows=1500&page=1&sidx=itemCode&sord=asc"
+		}
+	}
+}
